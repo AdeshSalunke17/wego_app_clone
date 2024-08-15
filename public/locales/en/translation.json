@@ -1,0 +1,64 @@
+{
+    "navbar":{
+        "navbarOptions":{
+            "flights":"Flights",
+            "hotels":"Hotels",
+            "wegoPro":"WegoPro Business Travel"
+        }
+    },
+    "image_div_heading":"Discover the real value of travel",
+    "form_option_div":{
+        "options":{
+            "flights":{
+                "heading":"Flights",
+                "options":{
+                    "one_way":"One-way",
+                    "round_trip":"Round-trip",
+                    "multi_city":"Multi-city"
+                },
+                "footer_div":{
+                    "check_box":"Direct flight only",
+                    "dropdown":{
+                        "passenger":{
+                            "main_heading":{
+                                "primary":"Adult",
+                                "secondary":"Passengers"
+                            },
+                            "adult":{
+                                "heading":"Adults",
+                                "range":">12 Years"
+                            },
+                            "children":{
+                                "heading":"Children",
+                                "range":"2-12 Years"
+                            },
+                            "infants":{
+                                "heading":"Infants",
+                                "range":"<2 Years"
+                            }
+                        },
+                        "class":{
+                            "eco":"Economy",
+                            "prem_eco":"Premium Economy",
+                            "bsn_cls":"Business Class",
+                            "f_cls":"First Class"
+                        },
+                        "payment":{
+                            "heading":"Payment Types",
+                            "header_content":"By Selecting One Or More (Max 10) Payment Types, Prices On Wego Will Include Applicable Minimum Payment Fee. Please Note That Not All Providers Support All Payment Types.",
+                            "pay_options":["","","","","","","","","",""],
+                            "tip":"Tips: To Find Popular Payment Types, You Can Change Your \"Country\" Setting (Located On Top-Right Menu)."
+                        }
+                    },
+                    "search":"Search"
+                }
+            },
+            "hotels":{
+                "heading":"Hotels"
+            },
+            "trains":{
+                "heading":"Trains"
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.main{
+    z-index: 1;
+    height: 300px;
+    position: absolute;
+    background-color: white;
+}
+.inputElement{
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #44b50c;
+}

@@ -1,0 +1,15 @@
+.buttonCss{
+    border-radius: 100%;
+    padding: 3% 8%;
+    font-size: larger;
+    background-color: white;
+    border: transparent;
+    position: relative;
+    color: rgb(21, 248, 21);
+}
+.backButtonHide{
+    display: none;
+}
+.nextButtonHide{
+    display: none;
+}

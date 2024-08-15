@@ -1,0 +1,36 @@
+.main{
+    height: 500px;
+    background-image: url('https://assets.wego.com/image/upload/c_fill,fl_lossy,q_auto:best,f_auto,w_2560/v1597920831/web/hero_images/in_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0 0 30% 30%;
+    text-align: center  ;
+    align-items: center;
+}
+.heading{
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    margin-bottom: 90px;
+}
+@media (max-width:992px) {
+    .main{
+        border-radius: 0 0 80% 80%;
+        height: 400px;
+    }
+}
+@media (max-width:768px) {
+    .main{
+        border-radius: 0 0 30% 30%;
+        height: 250px;
+    }
+}
+@media (max-width:900px) {
+   
+}
+@media (max-width:768px) {
+   
+}
+@media (max-width:576px) {
+  
+}

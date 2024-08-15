@@ -1,0 +1,39 @@
+.main{
+    width: 100%;
+    /* height: 80px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+.inputDiv{
+    /* width: 50%; */
+    padding: 9px 5px 0px 15px;
+    display: flex;
+}
+.inputElement{
+    width: 47%;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 196, 196);
+}
+.exchangeButtonDiv{
+    width: 5%;
+}
+.exchangeButton{
+    border-radius: 100%;
+    padding: 7px 10px 7px 10px;
+    border: transparent;
+    position: relative;
+    top: 8px;
+    right: 7px;
+    /* background-color: white; */
+}
+.exchangeButton:active{
+    transform: rotate(90deg);
+}
+.dateRangeDiv{
+    /* width: 50%; */
+    padding: 0px 5px 0px 15px;
+}

@@ -1,0 +1,30 @@
+.dropdown{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .dropdownmenu{
+    padding: 20px;
+  }
+  .myButton{
+      border: 0px;
+      border-radius: 5px;
+      padding: 0px 12px 0px 12px;
+  }
+  .myButton_color{
+    background-color: rgb(75, 221, 75);
+    color: white;
+  }
+  .mydiv{
+   padding:  5px 0px 10px 0px
+  }
+  .dropdownButon{
+      background-color: white;
+      color: black;
+      border: 0px;
+      font-weight: 400;
+  }
+  .dropdownButon:hover{
+    background-color: #ececec;
+    color: black;
+  }
+  

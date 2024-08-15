@@ -1,0 +1,19 @@
+.main{
+    width: 621px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.buttonStyle{
+    border: 0px;
+    padding: 6px 30px 6px 30px;
+    background-color: white;
+    text-align: left;
+    width: 150px;
+}
+.buttonStyle:hover{
+    background-color: rgb(224, 224, 224);
+}

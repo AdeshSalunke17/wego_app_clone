@@ -1,0 +1,106 @@
+.navbar{
+    height: 60px;
+    background: transparent;
+    /* width: 100%; */
+    /* display: flex; */
+    /* position: fixed;
+    top: 0; */
+    /* z-index: 9999; */
+    /* background-image: url('https://assets.wego.com/image/upload/c_fill,fl_lossy,q_auto:best,f_auto,w_2560/v1597920831/web/hero_images/in_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% ; */
+}
+.navbar_full{
+    background-color: white;
+}
+.logodiv{
+    /* width: 18%; */
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+.optionsdiv{
+    display: flex;
+    /* gap: 45px; */
+    padding: 10px 0px 10px 0px;
+    /* width: 40%; */
+    /* justify-content: center; */
+}
+.aTagStyle{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.countryNameDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.optionsdiv_hidden{
+    visibility: hidden;
+}
+.dropdowndiv{
+    display: flex;
+    justify-content: center;
+    /* width: 30%; */
+    padding: 13px;
+    gap: 1px;
+}
+.dropdownbutton{
+    
+    background-color: rgba(29,29,29,.48);
+    border: transparent;
+    color: white;
+    border-radius: 0px;
+    padding: 2px 20px 1px 20px;
+    
+}
+.dropdownbutton_full{
+    background-color: white;
+    border: 1px solid rgb(187, 187, 187);
+    padding: 2px 20px 1px 20px;
+    color: black;
+    border-radius: 0px;
+}
+.dbtn1_en{   
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px 
+}
+.dbtn1_ar{   
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px 
+}
+.dbtn2{
+    border-left: 0px;
+    border-right: 0px;
+}
+.dbtn3_en{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px 
+}
+.dbtn3_ar{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px 
+}
+.dropdownbutton:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: var(--bs-btn-active-color);
+    background-color: white
+    
+}
+@media (max-width:768px) {
+    .languageDropdown,.currencyDropdown,.wegoproLink{
+        display: none;
+    }
+    .dbtn1_en, .dbtn1_ar{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px ;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px 
+    }
+
+}

@@ -1,0 +1,97 @@
+.modal-content{
+    width: 0px;
+    height: 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 0px;
+ }
+.signUpMain{
+    width: 650px;
+    height: 600px;
+    background-color: white;
+    margin-left: -122px;
+    margin-top: -31px;
+    border-radius: 5px 
+ }
+ .infoDiv{
+    background-color: rgb(231, 231, 231);
+ }
+ .infoDiv_header{
+    padding-top: 30px;
+    height: 150px;
+    line-height: 43px;
+    text-align: center;
+ }
+ .infoDiv_info{
+    background-color: rgb(231, 231, 231);
+    height: 400px;
+    padding: 31px 20px 20px 20px;
+ }
+ .banner{
+    height: 100px;
+    padding-bottom: 15px;
+ }
+ 
+ .logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 16px;
+ }
+ .content{
+    line-height: 15px;
+    padding-top: 17px;
+    padding-left: 12px;
+ }
+ .signForm{
+   width: 100%;
+    height: 450px;
+    background-color: white;
+ }
+ .buttonsDiv{
+   height: 155px;
+   padding: 25px 30px 0px 30px;
+   flex-wrap: wrap;
+}
+.fbButton{
+   height: 40px;
+   border: transparent;
+   border-radius: 30px;
+   background-color: #4267b2
+}
+.googleButton{
+   height: 40px;
+   border-radius: 30px;
+   border: 1px solid rgb(209, 209, 209);
+   background-color: white;
+}
+.form{
+   flex-wrap: wrap;
+   padding: 10px 30px 0px 30px;
+   height: 215px;
+}
+.myInput{
+   outline: none;
+   border-bottom: 1px solid rgb(114, 114, 114);
+}
+.label {
+   color: rgb(161, 161, 161);
+   font-size: 15px;
+   position: relative;
+   top: -26px;
+   transition: top 0.3s ease-out; /* Smooth transition */
+   pointer-events: none; /* Ensure label doesn't interfere with input */
+ }
+ .myInput:focus{
+ outline: none;
+ border-bottom: 1px solid green;
+}
+.myInput:focus + .label {
+   top: -35px; /* Adjusted position of the label when input is focused */
+   font-size: 10px;
+ }
+ .signupfooter{
+   height: 120px;
+   padding: 0px 30px 0px 30px;
+   flex-wrap: wrap;
+ }

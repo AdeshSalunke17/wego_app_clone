@@ -1,0 +1,40 @@
+.main{
+    height: 60px;
+    width: 100%;
+    border-top: 15px;
+    background: transparent;
+}
+.buttonStyle_glassEffect{
+    height: 60px;
+    width: 140px;
+    color: white;
+    background: rgba(255,255,255,0);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0);
+    
+}
+.btn_1{
+    border-top-left-radius: 10px;
+}
+.btn_3{
+    border-top-right-radius: 10px;
+}
+.buttonStyle_normal{
+    height: 60px;
+    width: 140px;
+    background-color: white;
+    color: black;
+    border: transparent;
+}
+.aTagStyle{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+@media(max-width:768px)
+{
+    .trainDiv{
+        display: none;
+    }
+}

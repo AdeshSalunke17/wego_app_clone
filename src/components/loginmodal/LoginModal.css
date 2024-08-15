@@ -1,0 +1,68 @@
+.modal-content{
+   width: 0px;
+   height: 0px;
+   padding: 0px 0px 0px 0px;
+   border-radius: 0px;
+}
+.loginMain{
+    width: 400px;
+    height: 550px;
+    background-color: white;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    padding-top: 44px;
+    line-height: 13px;
+}
+.loginForm{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+.buttonsDiv{
+    height: 155px;
+    padding: 25px 30px 0px 30px;
+    flex-wrap: wrap;
+}
+.fbButton{
+    height: 40px;
+    border: transparent;
+    border-radius: 30px;
+    background-color: #4267b2
+}
+.googleButton{
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(209, 209, 209);
+    background-color: white;
+}
+.form1{
+    flex-wrap: wrap;
+    padding: 30px 30px 0px 30px;
+    height: 151px;
+ }
+.myInput{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid rgb(114, 114, 114);
+ }
+.label {
+    color: rgb(161, 161, 161);
+    font-size: 15px;
+    position: relative;
+    top: -26px;
+    transition: top 0.3s ease-out; /* Smooth transition */
+    pointer-events: none; /* Ensure label doesn't interfere with input */
+}
+.myInput:focus{
+  outline: none;
+  border-bottom: 1px solid green;
+}
+.myInput:focus + .label {
+    top: -35px; /* Adjusted position of the label when input is focused */
+    font-size: 10px;
+}

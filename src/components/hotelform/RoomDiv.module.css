@@ -1,0 +1,69 @@
+.main{
+    /* height: 200px; */
+    width: calc(500px - 2vw)!important;
+    background-color: white;
+}
+.heading{
+    height: 30px;
+}
+.heading p{
+    font-weight: 500;
+}
+.heading button{
+    background-color: white;
+    border: transparent;
+    color: red;
+    float: right;
+    font-weight: 400;
+    font-size: 15px;
+}
+.maincontent{
+    height: 60px;
+    display: flex;
+}
+.adultdiv{
+    width: 50%;
+    display: flex;
+}
+.adultlogodiv{
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+.adultcontentdiv{
+    width: 30%;
+}
+.adultbuttondiv{
+    width: 50%;
+}
+.childdiv{
+    width: 50%;
+    display: flex;
+}
+.childlogodiv{
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+
+}
+.childcontentdiv{
+    width: 30%;
+}
+.childbuttondiv{
+    width: 50%;
+    text-align: center;
+}
+.myButton{
+    border: 0px;
+    border-radius: 5px;
+    padding: 0px 12px 0px 12px;
+}
+.active{
+    background-color: rgb(75, 221, 75);
+    color: white;
+}
+.AgeOfChildrenDropdownDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
