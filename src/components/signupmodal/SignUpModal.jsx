@@ -9,7 +9,7 @@ import { useEffect } from "react";
 
 function SignUpModal({ show, setShow, setLoginShow }) {
   const [displayButton, setDisplayButton] = useState(false);
-  const [isChecked, setIsChecked] = useState(true);
+  const [isChecked] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setDisplayButton(true);

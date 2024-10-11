@@ -76,7 +76,7 @@ export const CardsDiv2 = () => {
 };
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { onClick } = props;
   return (
     <button
       className="shadow"
@@ -99,7 +99,7 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { onClick } = props;
   return (
     <button
       className="shadow"

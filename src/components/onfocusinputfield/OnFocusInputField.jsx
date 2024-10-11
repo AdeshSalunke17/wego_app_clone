@@ -1,19 +1,29 @@
-import React, { useEffect, useRef } from "react";
+import React, { useCallback, useEffect, useRef } from "react";
 import style from "./OnFocusInputField.module.css";
 import { motion } from "framer-motion";
-import { duration } from "@mui/material";
 function OnFocusInputField({ setOnFocusInputShow, options }) {
   const ref = useRef(null);
-  useEffect(() => {
-    document.addEventListener("click", handleClickedOutsideDiv, true);
-  }, []);
-  const handleClickedOutsideDiv = (e) => {
+  const handleClickedOutsideDiv = useCallback((e) => {
     try {
       if (!ref.current.contains(e.target)) setOnFocusInputShow(false);
     } catch (error) {
       console.log(error);
     }
-  };
+  }, [setOnFocusInputShow]);
+  useEffect(() => {
+    document.addEventListener("click", handleClickedOutsideDiv, true);
+     // Cleanup event listener on component unmount
+     return () => {
+      document.removeEventListener("click", handleClickedOutsideDiv, true);
+    };
+  }, [handleClickedOutsideDiv]);
+  // const handleClickedOutsideDiv = (e) => {
+  //   try {
+  //     if (!ref.current.contains(e.target)) setOnFocusInputShow(false);
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
   return (
     <motion.div
       className={`col-4 shadow rounded ${style.main}`}

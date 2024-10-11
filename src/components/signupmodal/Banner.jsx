@@ -8,6 +8,7 @@ const getLogo=(name)=>{
         case "flash": return <IoIosFlash />
         case "bell": return <FaBell />
         case "tag": return <BsFillTagsFill/>
+        default : return null
     }
 }
 
