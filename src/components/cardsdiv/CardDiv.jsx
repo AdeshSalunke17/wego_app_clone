@@ -1,6 +1,5 @@
-import React, { useTransition } from 'react'
+import React from 'react'
 import { useState } from 'react';
-import { useEffect } from 'react';
 import Card from './Card'
 import style from './CardDiv.module.css'
 import { IoIosArrowForward } from "react-icons/io";

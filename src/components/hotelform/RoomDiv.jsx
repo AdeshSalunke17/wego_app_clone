@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import style from './RoomDiv.module.css'
 import { PiPersonLight } from "react-icons/pi";
 import { PiPersonArmsSpreadLight } from "react-icons/pi";
@@ -52,7 +52,7 @@ function RoomDiv({numberOfRoomDiv,setNumberOfRoomDiv,number,setTotalNumberOfGues
           <p style={{fontWeight:"300"}}>Age of Children</p>
           <div className={`${style.AgeOfChildrenDropdownDiv}`}>
             {
-              childCountArray.map(()=>{
+              childCountArray.map((obj,i)=>{
                 return <AgeOfChildrenDropdown/>
               })
             }

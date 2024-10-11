@@ -4,8 +4,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import ImageDiv from './components/imagediv/ImageDiv';
 import FormDiv from './components/formdiv/FormDiv';
-import {useTranslation} from 'react-i18next'
-import CardDiv from './components/cardsdiv/CardDiv';
+import {useTranslation} from 'react-i18next';
 import { CardsDiv2 } from './components/cardsdiv2/CardsDiv2';
 
 function App() {

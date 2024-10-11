@@ -87,8 +87,10 @@ function CountryDropDownDiv({onClickFunction})
   return (
     <div className={`${style.main}`}>
         <span style={{width:"100%",marginLeft:"20px",marginBottom:"5px",fontWeight:"500"}}>Country/Region</span>
-        {countryList.map((obj)=>{
-            return <button className={`${style.buttonStyle}`} onClick={()=>{onClickFunction(obj.code);reArrangeCountryList(obj.code)}}>{
+        {countryList.map((obj, i)=>{
+            return <button className={`${style.buttonStyle}`} onClick={()=>{onClickFunction(obj.code);reArrangeCountryList(obj.code)}}
+            key={i}
+            >{
                 obj.name.length>10? obj.name.substring(0,9)+"...":obj.name
             }</button>
         })}
