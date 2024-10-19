@@ -56,7 +56,7 @@ function NavBar({ showFull }) {
                 id="dropdown-basic"
                 className={`${
                   showFull ? style.dropdownbutton_full : style.dropdownbutton
-                }  ${langCode === "en" ? style.dbtn1_en : style.dbtn1_ar}`}
+                }  ${langCode === "ar" ? style.dbtn1_ar: style.dbtn1_en }`}
               >
                 {countryCode}
               </Dropdown.Toggle>
@@ -89,7 +89,7 @@ function NavBar({ showFull }) {
                 id="dropdown-basic"
                 className={`${
                   showFull ? style.dropdownbutton_full : style.dropdownbutton
-                } ${langCode === "en" ? style.dbtn3_en : style.dbtn3_ar}`}
+                } ${langCode === "ar" ? style.dbtn3_ar : style.dbtn3_en}`}
               >
                 INR
               </Dropdown.Toggle>
