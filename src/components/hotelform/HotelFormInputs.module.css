@@ -3,6 +3,14 @@
     /* width: 40%; */
     padding: 8px 7px 0px 0px;
 }
+@media(max-width: 992px) {
+ .inputDiv {
+    padding: 8px 0px 0px 0px;
+ }
+.dropdownDiv {
+    padding: 8px 0px 0px 0px;
+}
+}
 
 .dropdownDiv{
     /* width: 20%; */

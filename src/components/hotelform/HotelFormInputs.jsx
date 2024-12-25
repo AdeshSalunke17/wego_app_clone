@@ -29,14 +29,14 @@ function HotelFormInputs() {
   }
   return (
     <div className={`w-100 d-flex flex-wrap ${style.main}`}>
-      <div className={`col-lg-5 col-6 ${style.inputDiv}`}>
+      <div className={`col-lg-5 col-12 ${style.inputDiv}`}>
         <input
           type="text"
           className={`${style.inputElement} `}
           placeholder="Destination"
         />
       </div>
-      <div className={`col-lg-4 col-6 ${style.dateDiv}`}>
+      <div className={`col-lg-4 col-12 ${style.dateDiv}`}>
         <LocalizationProvider dateAdapter={AdapterDayjs}>
           <DemoContainer components={["DateRangePicker"]}>
             <DateRangePicker

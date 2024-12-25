@@ -27,12 +27,12 @@ function NavBar({ showFull }) {
           showFull && style.navbar_full
         }`}
       >
-        <div className="row w-100">
+        <div className="row w-100 d-flex justify-content-between">
           <div className={`col-md-3 col-3 px-5 ${style.logodiv}`}>
             <img src={logo} alt="" style={{ height: "100%", width: "100px" }} />
           </div>
           <div
-            className={` col-md-5 col-5 ${style.optionsdiv} ${
+            className={` col-md-5 col-5 d-none d-sm-block ${style.optionsdiv} ${
               !showFull && style.optionsdiv_hidden
             }`}
           >

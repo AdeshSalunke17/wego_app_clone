@@ -19,3 +19,8 @@
         margin-top: -80px;
     }
 }
+@media (max-width:576px) {
+    .main {
+        margin-top: -130px;
+    }
+}

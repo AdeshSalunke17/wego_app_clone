@@ -23,6 +23,12 @@
 .btn_3{
     margin-left: 5px;
 }
+@media(max-width : 495px) {
+    .btn_3 {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
 .buttonStyleAfterEffect{
     border: transparent;
     border-radius: 25px;

@@ -81,7 +81,7 @@ function FlightForm() {
           <input type="checkbox" className={`${style.checkBoxElement}`} />
           <p>{options.flights.footer_div.check_box}</p>
         </div>
-        <div className={`${style.dropDownDiv} col-lg-6 col-md-9 col-12`}>
+        <div className={`${style.dropDownDiv} col-lg-6 col-md-9 col-12 flex-wrap`}>
           <PassengerDropDown />
           <ClassDropDown />
           <PaymentDropDown />
